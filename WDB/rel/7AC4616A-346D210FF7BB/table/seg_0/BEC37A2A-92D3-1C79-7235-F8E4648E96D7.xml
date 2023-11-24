@@ -1,0 +1,43 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BEC37A2A-92D3-1C79-7235-F8E4648E96D7" name="OtherPrisons">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<comment><![CDATA[Other prison names that are not this prison]]></comment>
+<commentInRDBMS><![CDATA[Other prison names that are not this prison]]></commentInRDBMS>
+<generatorID>0C2EEE09-BB2C-1AC0-A069-9CC84485DA20</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<abbreviation>OthPris</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="0314DBA5-94DC-B968-D4EC-5AB8D3D5E2B2">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>6ABC10BE-EFFA-E965-771C-2ACD2E29127D</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C03ECA4C-99F5-04EB-81A3-0E839D689CE2" name="OtherPrisons_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>95A94FDE-2925-CA29-90B0-0AC6228E06E0</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0314DBA5-94DC-B968-D4EC-5AB8D3D5E2B2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

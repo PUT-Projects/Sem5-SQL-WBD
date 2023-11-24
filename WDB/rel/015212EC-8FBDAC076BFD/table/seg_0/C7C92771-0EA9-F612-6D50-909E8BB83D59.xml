@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C7C92771-0EA9-F612-6D50-909E8BB83D59" name="FacilitySecurity">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:22:53 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_12</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="6060DBB6-4DE1-A5E5-CBAC-FD8A4991F12B">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:25:11 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="6755B2F0-7D03-640E-4291-64A41CA3C9E5">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:25:11 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Application" id="63BDC2F2-53B7-0E20-3B4A-C895876E845C">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:25:11 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Locations_Name" id="DE53BC86-7B8E-6BB8-9EC5-C0ED40CD45E8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:12:06 UTC</createdTime>
+<generatorID>CC10C624-F1A2-5E6F-341C-76DD91D0ACEB</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4BEFCBE6-18AE-0086-5646-695851E35D8B" referredColumn="7D2E7BC4-4476-0247-00F1-49BD043188F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="95CEB139-388B-D869-4515-69ECF06B9AF3" name="FacilitySecurity_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:25:11 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6060DBB6-4DE1-A5E5-CBAC-FD8A4991F12B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8963B31B-8028-CCC3-3C47-F95432B55AFD" name="FacilitySecurity_Locations_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:12:06 UTC</createdTime>
+<generatorID>465C38C9-71F1-A8ED-8D86-24DB70D0AC3D</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DE53BC86-7B8E-6BB8-9EC5-C0ED40CD45E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

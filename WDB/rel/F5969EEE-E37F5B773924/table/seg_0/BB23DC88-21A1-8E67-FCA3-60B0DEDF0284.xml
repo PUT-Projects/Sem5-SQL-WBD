@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB23DC88-21A1-8E67-FCA3-60B0DEDF0284" name="Prisoner_Incidents">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:49 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Incidents_Inc_ID" id="989B768D-97A8-E651-4166-97DDD7BC2777">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:49 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4FD90A8D-8DCC-C70C-B542-8D9A64322F7F" referredColumn="261A2369-0DB1-CC5C-C5AB-104C3ABAE526"/>
+</associations>
+</Column>
+<Column name="Prisoners_ID" id="A6ACC3AE-AC8F-72E2-B7D8-F053850CA358">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:49 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F7642BA6-0F4B-9B43-0859-46779B25D7D0" referredColumn="3A62E547-076A-7875-F7D1-87D4680A6F26"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="62E2EEE6-C36B-8A43-FB02-F3D1BAD78FEC" name="Prisoner_Incidents_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:49 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="989B768D-97A8-E651-4166-97DDD7BC2777"/>
+<colUsage columnID="A6ACC3AE-AC8F-72E2-B7D8-F053850CA358"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="04212234-F52E-E829-F6D2-7513D3F4993C" name="Prisoner_Incidents_Incidents_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:49 UTC</createdTime>
+<generatorID>B01F821A-DA14-EDE8-2C89-20CB5E46A551</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="989B768D-97A8-E651-4166-97DDD7BC2777"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51ACB3A5-8967-D82A-AE1D-290DA90630A8" name="Prisoner_Incidents_Prisoners_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:49 UTC</createdTime>
+<generatorID>B01F821A-DA14-EDE8-2C89-20CB5E46A551</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A6ACC3AE-AC8F-72E2-B7D8-F053850CA358"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="History_Prisoner" directorySegmentName="seg_0" id="0975A8A1-B64E-E848-8390-AF2F129C752E">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 09:37:55 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<targetPk>FBBA919D-958E-E0F7-7BB4-28DB8331AB78</targetPk>
+<identifying>true</identifying>
+<nameOnSource>of</nameOnSource>
+<nameOnTarget>Did this</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7E7978D3-66AD-C3A0-0A42-3B234E327429</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>EF0120F3-D89F-F7CA-746F-311B1BDBB2F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A3C47B0-8376-E86B-7F94-598A14BCCCAF" name="PrisonerEmploymentAssign">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:59:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prisoners_ID" id="66ECF4C2-1FEA-FF4A-69F7-DD4FA0EAC2DA">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:59:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3F588CBB-308F-F3F7-80CA-6F6C999EEB1C" referredColumn="B4E96BE9-3BB5-4251-B2FD-5C6F02578B0F"/>
+</associations>
+</Column>
+<Column name="PrisonerEmployment_ID" id="3E999FF8-0DD8-988A-8055-844CECAB87F9">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:59:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B59BB78A-F881-5431-C871-A5400FD39990" referredColumn="55290175-42BC-7171-8971-4F45A5780088"/>
+</associations>
+</Column>
+<Column name="ParticipationStart" id="9D4E47A2-7150-B4E9-F8FC-ACD6922F7BE7">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:59:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ParticipationEnd" id="D1E8E19C-60BA-33FE-78D5-BD734C37DA9C">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 14:02:25 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="037C81B2-A20C-CAB7-64FC-1C0947135391" name="PrisonerEmploymentAssign_Prisoners_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:00:59 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="66ECF4C2-1FEA-FF4A-69F7-DD4FA0EAC2DA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="445FED05-7280-6C89-752E-AE9F67198D45" name="PrisonerEmploymentAssign_PrisonerEmployment_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:00:59 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3E999FF8-0DD8-988A-8055-844CECAB87F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

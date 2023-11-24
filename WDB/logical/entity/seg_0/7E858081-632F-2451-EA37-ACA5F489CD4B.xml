@@ -1,0 +1,146 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7E858081-632F-2451-EA37-ACA5F489CD4B" name="RehabilitationSchedule">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-05 00:52:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>RehabSched</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StartDate" id="E5567ACC-73BA-93A3-B80D-260B05C0698E">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-05 00:52:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndDate" id="358976D8-BB5B-1CD4-CCF5-FBD39D41CB4B">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-05 00:52:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Weekday" id="3D0CDE68-9717-7B83-43F1-2C7CEB80D865">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-05 00:52:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StartHour" id="B49D8084-B8F1-9D0B-F7A3-21C901F649D1">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-05 00:52:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>5 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Duration" id="001E160A-EDB5-C14F-B9CF-EED64DAF82A3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-05 00:52:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT049</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="55650170-E371-EE74-0367-EE33281E340B">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-09 20:59:08 UTC</createdTime>
+<generatorID>52AF9A5E-720A-00D3-7A6D-2FDB1D2403F3</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<referedAttribute>4C65A4BC-71DF-1E00-3B5E-E7B21092EE28</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="PeopleCapacity" id="60BDC0DC-2F81-96DB-6ED6-9BAF22E70514">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-15 09:27:30 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="58562595-CCEA-E67F-5A29-A429B8B85230" name="RehabilitationSchedule PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-14 15:33:53 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E5567ACC-73BA-93A3-B80D-260B05C0698E</attributeRef>
+<attributeRef>3D0CDE68-9717-7B83-43F1-2C7CEB80D865</attributeRef>
+<attributeRef>B49D8084-B8F1-9D0B-F7A3-21C901F649D1</attributeRef>
+<attributeRef>55650170-E371-EE74-0367-EE33281E340B</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

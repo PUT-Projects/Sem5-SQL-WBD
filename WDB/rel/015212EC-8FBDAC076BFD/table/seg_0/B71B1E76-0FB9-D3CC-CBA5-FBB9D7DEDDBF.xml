@@ -1,0 +1,67 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B71B1E76-0FB9-D3CC-CBA5-FBB9D7DEDDBF" name="PrisonIncidents">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:09:23 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_8</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="54C18887-7E60-A156-92A3-B4E8B1512BEF">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:11:32 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="699E15B5-04AB-7097-3D6C-C9CE4A3386A8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:11:32 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>31 BYTE</dataTypeSize>
+<ownDataTypeParameters>31 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Description" id="173A5488-E9BF-AD63-2C8D-C1CD8C370220">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:11:32 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Date" id="439FA376-98EF-EEFA-01D4-66056886D3F2">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:11:32 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="93462685-3032-F779-393E-5611FF4CFA48" name="PrisonIncidents_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:11:32 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="54C18887-7E60-A156-92A3-B4E8B1512BEF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

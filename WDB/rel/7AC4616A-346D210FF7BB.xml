@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<relationalModel class="oracle.dbtools.crest.model.design.relational.RelationalDesign" name="Relational_3" id="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" mainViewID="C4649EC8-A90D-C6E7-AB9A-405F6103905C">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:08:00 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+<selectedRDBMSSite>32076570-2523-435C-2E92-BF29817DFF70</selectedRDBMSSite>
+</relationalModel>

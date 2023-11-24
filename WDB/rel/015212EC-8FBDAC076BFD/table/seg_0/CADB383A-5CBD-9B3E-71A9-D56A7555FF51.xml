@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CADB383A-5CBD-9B3E-71A9-D56A7555FF51" name="PrisonCells">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:33:06 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="17424EC5-C1C0-323D-0146-579040CAFFCF">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:33:06 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacity" id="B29D5648-89B7-9D21-FB30-00B426273269">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:33:06 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TechnicalCondition_ConditionID" id="E08EBF57-27DE-A38A-E2D9-53969714EBE2">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:33:06 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Condition" id="BE07097A-34E8-6926-46C0-898057ACC90A">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:04:45 UTC</createdTime>
+<generatorID>AA5822EA-21A2-550F-AF31-C50C80ED580A</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Locations_Name" id="C43AAC30-EC50-2D46-D866-A69ADFC7F0A1">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:12:06 UTC</createdTime>
+<generatorID>C0090E5F-010A-BBD7-AD18-1EED776CEE2E</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9F88565-1A78-151C-3441-842F45622601" referredColumn="7D2E7BC4-4476-0247-00F1-49BD043188F6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FA0A5559-06FC-1F4C-B29B-6F187665F367" name="PrisonFacilitiesv1_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:33:06 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="17424EC5-C1C0-323D-0146-579040CAFFCF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7787097A-FBFB-6CA6-E3DC-32FA645BBAEC" name="PrisonCells_Locations_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:12:06 UTC</createdTime>
+<generatorID>7F407849-AE69-D1F8-E574-062C85E079DB</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C43AAC30-EC50-2D46-D866-A69ADFC7F0A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

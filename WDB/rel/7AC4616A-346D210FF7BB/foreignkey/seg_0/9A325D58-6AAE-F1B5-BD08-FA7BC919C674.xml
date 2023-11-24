@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A325D58-6AAE-F1B5-BD08-FA7BC919C674" containerWithKeyObject="EB6D146C-95B5-A6CA-D2B1-D1F1B62E1B19" localFKIndex="6DB29E99-7082-C086-E5F0-0173D96821BE" name="Pris_Rehab_Pris_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>0C3DB225-54EB-CD84-93C8-F47F94CFB604</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<referredTableLongName>Prisoners</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0887FA08-6482-6301-8101-C25269045FBB</referredTableID>
+<keyObject>0E84998F-B9D7-EEE2-CFA3-F9AD82410892</keyObject>
+<referredKeyID>0E84998F-B9D7-EEE2-CFA3-F9AD82410892</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ShirtNumber</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="699D5DB1-6A7C-8385-D777-B3CFAD5558C3" name="PrisonCells">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:48 UTC</createdTime>
+<generatorID>03C72A15-0852-0FFF-EA63-52DC4655B4EE</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Number" id="70ECEE9F-9447-5893-86C2-8CB4F3442FB6">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:48 UTC</createdTime>
+<generatorID>9B47FD10-DEE8-C3A1-9F75-611F00A6D43D</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacity" id="413218DD-EFFC-1038-0205-61B6C37B7AA4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:48 UTC</createdTime>
+<generatorID>3109C066-1005-2B17-590D-BC7552DBB266</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Condition" id="437CB783-F581-1800-BE4E-62CBC4A9ABD4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:48 UTC</createdTime>
+<generatorID>6BEF8243-757A-4C7C-1AB5-394306732507</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Locations_Name" id="65FAA884-C442-3DE0-7512-382789CB5A0B">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:48 UTC</createdTime>
+<generatorID>99F028C3-9F51-D042-1DB6-425BA2D19B31</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F940BF23-A8BC-6CC9-A0E2-16712968E76D" referredColumn="083244DB-5085-BA5C-5582-F0E969856356"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="560A12A5-D241-16BA-239C-AD326E6CF728" name="PrisonCells_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:49 UTC</createdTime>
+<generatorID>B9411E3E-8A1D-26AB-C663-6E39E0F88105</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="70ECEE9F-9447-5893-86C2-8CB4F3442FB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AFA4C11C-5848-A837-7F82-32DA7F18AB11" name="PrisonCells_Locations_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:49 UTC</createdTime>
+<generatorID>5D1428DC-A0BC-FD75-6CA1-12282A0E67A3</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="65FAA884-C442-3DE0-7512-382789CB5A0B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

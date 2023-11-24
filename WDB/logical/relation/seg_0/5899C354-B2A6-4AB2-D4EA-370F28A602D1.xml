@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PrisonStaff_PrisonFacilities" directorySegmentName="seg_0" id="5899C354-B2A6-4AB2-D4EA-370F28A602D1">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:27:46 UTC</createdTime>
+<generatorID>251D8DF3-7E2C-BF82-6AE7-91441CF91757</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<sourcePk>260FBF6E-29E2-E8B9-E352-DBD3156BA6F2</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>employs</nameOnSource>
+<nameOnTarget>works in</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>312D4D6E-7791-28F5-E0F5-5CBBD5DC1E4F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>0670BDA0-AC7B-8572-0711-B493D9B962C2</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

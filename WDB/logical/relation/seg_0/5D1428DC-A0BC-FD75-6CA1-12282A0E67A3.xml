@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="PrisonCells_Locations" directorySegmentName="seg_0" id="5D1428DC-A0BC-FD75-6CA1-12282A0E67A3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:27:46 UTC</createdTime>
+<generatorID>C9F88565-1A78-151C-3441-842F45622601</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<sourcePk>C6C651EB-1AB3-9E55-3E8D-4ED7076684B4</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>contains</nameOnSource>
+<nameOnTarget>in</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>8D59D3BD-6F70-2974-FBCE-60A19AF2313D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>03C72A15-0852-0FFF-EA63-52DC4655B4EE</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

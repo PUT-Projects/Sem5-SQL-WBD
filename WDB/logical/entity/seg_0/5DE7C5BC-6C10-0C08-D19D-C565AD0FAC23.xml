@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5DE7C5BC-6C10-0C08-D19D-C565AD0FAC23" name="PrisonStays">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:27:46 UTC</createdTime>
+<generatorID>54615831-0265-068F-7997-9558DD9D28E1</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>PrisSt</shortName>
+<createSurrogateKey>true</createSurrogateKey>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="StartDate" id="B32F807A-128F-B468-97F8-5FF225C4B9E7">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:27:46 UTC</createdTime>
+<generatorID>451871C0-33DE-7257-BB15-02F0F6816442</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="EndDate" id="48A6687D-E730-99E6-F81F-33CBDB671290">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:27:46 UTC</createdTime>
+<generatorID>57E19991-DE5A-C711-E670-58C6ADF06053</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="E7E34152-894B-FDCC-AFBF-2743FF0D9A80">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-15 09:18:43 UTC</createdTime>
+<generatorID>B3578B2E-4818-894B-1DB7-87C5A251B49D</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>6ABC10BE-EFFA-E965-771C-2ACD2E29127D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ShirtNumber" id="F83AF9E0-6D4C-9092-66DE-A456A0F00C19">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-19 11:56:32 UTC</createdTime>
+<generatorID>7BE2BCDA-EBFA-2F8D-3D0E-9C2FD90BD3DC</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<referedAttribute>2D5FCD1B-90A3-3B8F-207A-EF31F1251408</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CrimeDate" id="221544EF-A1AB-5EA2-8307-6C1A9DA9CB47">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-19 11:56:32 UTC</createdTime>
+<generatorID>7BE2BCDA-EBFA-2F8D-3D0E-9C2FD90BD3DC</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<referedAttribute>06F71A4E-41B0-AB92-F91D-B8F6843D5A15</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Sentence" id="354EB08C-78B5-2D5C-D8C4-1B8FD8B9CC0E">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-19 11:56:32 UTC</createdTime>
+<generatorID>7BE2BCDA-EBFA-2F8D-3D0E-9C2FD90BD3DC</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<referedAttribute>33AB7494-8FB4-D6B9-B28C-B843ECE95B7B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="StartDate1" id="3F55567A-16FB-80E6-8EEA-02BAB7062D29">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-19 11:56:32 UTC</createdTime>
+<generatorID>7BE2BCDA-EBFA-2F8D-3D0E-9C2FD90BD3DC</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<referedAttribute>AE009165-5108-4E0B-B54F-814D69B98863</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="6EB8080E-FB55-A6D9-E8E1-612A8FE903A3" name="PrisonStays PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-15 09:19:09 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B32F807A-128F-B468-97F8-5FF225C4B9E7</attributeRef>
+<attributeRef>F83AF9E0-6D4C-9092-66DE-A456A0F00C19</attributeRef>
+<attributeRef>221544EF-A1AB-5EA2-8307-6C1A9DA9CB47</attributeRef>
+<attributeRef>354EB08C-78B5-2D5C-D8C4-1B8FD8B9CC0E</attributeRef>
+<attributeRef>3F55567A-16FB-80E6-8EEA-02BAB7062D29</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

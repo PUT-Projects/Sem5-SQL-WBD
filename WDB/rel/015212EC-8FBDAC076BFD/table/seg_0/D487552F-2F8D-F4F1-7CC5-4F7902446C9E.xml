@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D487552F-2F8D-F4F1-7CC5-4F7902446C9E" name="PrisonFacilities">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:55:08 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_3</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="89A6966B-1D47-2B9F-F0E8-4A8FB800C577">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:57:14 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="7AFA32E4-42C3-9034-227E-8AD2A0DE2E4D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:57:14 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Capacity" id="11D20339-3FFA-60E7-D518-DF0FEA94E6E9">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:00:56 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TechnicalCondition_ConditionID" id="CB616731-9E8F-0EF5-EE23-638F7DBFC0E7">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:00:56 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Locations_Name" id="E370D2E9-45B2-0E54-14C2-C006362DD6FC">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:49:23 UTC</createdTime>
+<generatorID>C4E18132-392B-4722-2868-CB20DC7F03FF</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B66E8AD-E8A9-9805-22A4-E4FBC689CB2B" referredColumn="7D2E7BC4-4476-0247-00F1-49BD043188F6"/>
+</associations>
+</Column>
+<Column name="Condition" id="359889FC-6C49-CEF7-D8A7-CB7C2E241B6E">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:04:45 UTC</createdTime>
+<generatorID>9DAE9756-DCB8-AA48-C448-4493536BB3E6</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="413EEF79-A10C-7E0A-E4E9-E5E75F9F1E2E" name="PrisonFacilities_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:57:14 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="89A6966B-1D47-2B9F-F0E8-4A8FB800C577"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9E505CD5-DF0A-5D75-FA7F-8753FA53F86F" name="PrisonFacilities_Locations_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:49:23 UTC</createdTime>
+<generatorID>F7FC1783-B160-F400-FF1D-D76F9BCA05A7</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E370D2E9-45B2-0E54-14C2-C006362DD6FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

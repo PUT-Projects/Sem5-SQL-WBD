@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Cell_History" directorySegmentName="seg_0" id="40183F68-A383-1AD8-18E2-B50AD7AC8C26">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-15 09:36:44 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<sourcePk>B9411E3E-8A1D-26AB-C663-6E39E0F88105</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>was used</nameOnSource>
+<nameOnTarget>where</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>03C72A15-0852-0FFF-EA63-52DC4655B4EE</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>37C7B8FA-7FCE-B6C8-76A5-5A7CE7783197</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RehabilitationSchedules_RehabilitationPrograms" directorySegmentName="seg_0" id="AFF8A102-AD89-CB5F-A070-C5019485C9D6">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:27:46 UTC</createdTime>
+<generatorID>725A5E30-535E-A07E-1D8A-FE03F93712EA</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<sourcePk>58562595-CCEA-E67F-5A29-A429B8B85230</sourcePk>
+<identifying>true</identifying>
+<nameOnSource>occured</nameOnSource>
+<nameOnTarget>of</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7E858081-632F-2451-EA37-ACA5F489CD4B</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>11E8F0B6-61E5-A076-E030-C82FD7A55CAA</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

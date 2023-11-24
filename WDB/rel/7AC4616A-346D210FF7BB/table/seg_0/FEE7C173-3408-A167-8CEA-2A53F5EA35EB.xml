@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FEE7C173-3408-A167-8CEA-2A53F5EA35EB" name="Staff_Incidents">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<comment><![CDATA[Table that connects staff members to specific incident]]></comment>
+<commentInRDBMS><![CDATA[Table that connects staff members to specific incident]]></commentInRDBMS>
+<ownerDesignName>WDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Incidents_Inc_ID" id="D65BC329-02BE-1A89-0273-9192EE98F319">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D23160F-0825-591A-20A0-5F43B6586673" referredColumn="F2AFAF37-06CF-0938-DFF7-BDED998777A5"/>
+</associations>
+</Column>
+<Column name="PrisonStaff_BadgeID" id="6EB8224F-FA97-2697-751D-A4112C38C2E4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A0DF82FC-2D71-4925-A69F-02EE2031AF1C" referredColumn="55C7948D-6BC6-483C-86FA-4B274737AFF6"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E1A1D363-589E-9B96-FAB8-AFF8F8C71D0E" name="Staff_Incidents_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D65BC329-02BE-1A89-0273-9192EE98F319"/>
+<colUsage columnID="6EB8224F-FA97-2697-751D-A4112C38C2E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AD7E45DF-E429-61E8-36D5-92639B304893" name="Staff_Incidents_Incidents_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>24E49078-38BB-A185-9C92-C3DE5C0066A5</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D65BC329-02BE-1A89-0273-9192EE98F319"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="941E8E09-C12F-4FF4-9732-BA86B055AB9C" name="Staff_Incidents_PrisonStaff_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>24E49078-38BB-A185-9C92-C3DE5C0066A5</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6EB8224F-FA97-2697-751D-A4112C38C2E4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

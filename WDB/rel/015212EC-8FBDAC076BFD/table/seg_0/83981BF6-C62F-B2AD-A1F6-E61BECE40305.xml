@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="83981BF6-C62F-B2AD-A1F6-E61BECE40305" name="EmploymentSchedules">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:46:57 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="01B3802F-3641-63BF-D1EC-01471E0D7C21">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:46:57 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start" id="394B2434-DBB9-38A1-01E9-848A85D56671">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:46:57 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End" id="264A89C4-3970-76B8-2D58-2D1D773588D4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:46:57 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrisonerEmployment_ID" id="19A509A9-4F38-C7EF-083C-979FFD47CA45">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 14:11:44 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7562B3EB-0CE1-C1F4-70CD-481935C25A89" referredColumn="55290175-42BC-7171-8971-4F45A5780088"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BB517A72-03F8-8717-7BCE-AA361267BCDB" name="EmploymentSchedules_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:46:57 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="01B3802F-3641-63BF-D1EC-01471E0D7C21"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D1B77B06-E060-0983-CB77-0297C7EA2210" name="EmploymentSchedules_PrisonerEmployment_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:22:40 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="19A509A9-4F38-C7EF-083C-979FFD47CA45"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

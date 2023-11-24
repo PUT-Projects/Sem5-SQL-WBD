@@ -1,0 +1,79 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1CC92CCA-7596-B0ED-E01B-3A00237FF81D" name="EducationSchedules">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:49:41 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_19</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="444073BC-42C7-4F10-C614-48835EC874A3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:49:41 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start" id="1E8F18D4-8B52-6C33-C9C8-D071871C5ED7">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:49:41 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End" id="62FDB504-0150-A10A-ADE5-1D31CE70ADE4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:49:41 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrisonerEductaion_ID" id="49B45B91-B640-DAD3-3FB1-851AEF2240D8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 14:12:28 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="980D422D-A2DD-5FB9-5CA8-E18E761D8512" referredColumn="CA82C9F2-4FF2-7D59-8E72-6AE5596E5871"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7A931376-E041-6ECF-C335-51D3578B9F57" name="EducationSchedules_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:49:41 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="444073BC-42C7-4F10-C614-48835EC874A3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FBA91A03-F1A9-98B4-22B8-9A9FA6FB9025" name="EducationSchedules_PrisonerEductaion_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:22:19 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49B45B91-B640-DAD3-3FB1-851AEF2240D8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

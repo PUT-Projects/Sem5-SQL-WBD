@@ -1,0 +1,22 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Incident_Location" directorySegmentName="seg_0" id="DCF5B9A2-450D-3280-C5E8-6D15718109F3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-05 01:05:50 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<targetPk>C6C651EB-1AB3-9E55-3E8D-4ED7076684B4</targetPk>
+<identifying>false</identifying>
+<nameOnSource>in</nameOnSource>
+<nameOnTarget>had there</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>6C8003EA-A657-927A-AA5B-D8A0668AACEF</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>8D59D3BD-6F70-2974-FBCE-60A19AF2313D</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

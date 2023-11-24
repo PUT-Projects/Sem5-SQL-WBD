@@ -1,0 +1,139 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="3B7B88FC-2256-AF48-9488-FFFC102C81C7" name="CellAssignmentHistory">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<comment><![CDATA[This is history of current and past assignment of prisoners to cells]]></comment>
+<commentInRDBMS><![CDATA[This is history of current and past assignment of prisoners to cells]]></commentInRDBMS>
+<generatorID>37C7B8FA-7FCE-B6C8-76A5-5A7CE7783197</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<abbreviation>CellAssigHis</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StartDate" id="5FFA5E9E-2034-72B5-0603-E6A3DE5237A5">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>E38E6863-7480-5712-9809-90EF7F112218</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EndDate" id="81386D06-2914-ED2A-C4A7-C5A81B1D728C">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>89C13927-165A-859B-E9C6-3356D925B35B</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrisonCells_Number" id="4089B86B-C942-9D96-4169-500CDD8FFD9F">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>02DFA924-8C02-C6EB-DAD1-E99EC0487D99</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B5BB53E9-0267-EE09-8D61-251BED02ED76" referredColumn="EC4B421E-4271-8525-656E-EC2F71907940"/>
+</associations>
+</Column>
+<Column name="Prisoners_ShirtNumber" id="E90C8D6B-F788-D01F-A2BE-C98D2E89CA7C">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>7327850C-4C09-BC6F-EE5A-46C8CDEF1A12</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5AE519FF-0A4C-AE95-E502-7A0416C586A4" referredColumn="29652920-5711-AB3B-37DC-93A8B606FDB3"/>
+</associations>
+</Column>
+<Column name="CellAssigHis_ID" id="18D042EB-D4D0-01DB-8190-DDC0DA806056">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="501ABB5E-63E4-58FC-6C3F-C11EBC80B8A3" name="CellAssignmentHistory_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="18D042EB-D4D0-01DB-8190-DDC0DA806056"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="934D7FD0-4DBB-EA72-C055-47346D7E7A1E" name="CellAssignmentHistory_UN">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>98CBC29E-F47D-283E-99A1-D1A86648C5C9</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5FFA5E9E-2034-72B5-0603-E6A3DE5237A5"/>
+<colUsage columnID="4089B86B-C942-9D96-4169-500CDD8FFD9F"/>
+<colUsage columnID="E90C8D6B-F788-D01F-A2BE-C98D2E89CA7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C0D10C23-37B5-B5C1-EA76-0CFD0ABE6F89" name="CellAssignHist_PrisonCells_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>40183F68-A383-1AD8-18E2-B50AD7AC8C26</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4089B86B-C942-9D96-4169-500CDD8FFD9F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3E2C6411-D362-2AB8-E6A0-F4FC13ED6C6B" name="CellAssignHist_Pris_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>B1255576-8AF5-CA2C-AC84-1C27BCFE61D4</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E90C8D6B-F788-D01F-A2BE-C98D2E89CA7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

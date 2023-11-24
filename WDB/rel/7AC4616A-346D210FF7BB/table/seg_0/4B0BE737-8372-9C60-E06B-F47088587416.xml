@@ -1,0 +1,198 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B0BE737-8372-9C60-E06B-F47088587416" name="PrisonStays">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<comment><![CDATA[When prisoner was sentenced where and when he stayed during punishment]]></comment>
+<commentInRDBMS><![CDATA[When prisoner was sentenced where and when he stayed during punishment]]></commentInRDBMS>
+<generatorID>5DE7C5BC-6C10-0C08-D19D-C565AD0FAC23</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<abbreviation>PrisSt</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StartDate" id="83AF838B-B467-7201-6228-EB8F84972AA3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>B32F807A-128F-B468-97F8-5FF225C4B9E7</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EndDate" id="0FD18103-D74A-E928-6D4C-CBCC7631247B">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>48A6687D-E730-99E6-F81F-33CBDB671290</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OtherPrisons_Name" id="F758AC79-C350-40E9-D042-99A6233A9786">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>E7E34152-894B-FDCC-AFBF-2743FF0D9A80</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F2E2677C-582E-EFD2-765B-DB08F366F772" referredColumn="0314DBA5-94DC-B968-D4EC-5AB8D3D5E2B2"/>
+</associations>
+</Column>
+<Column name="Sen_PrisHist_ShirtNumber" id="A09BD06E-6EF8-D8B1-9AC4-EA8BBF5E0E3B">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>F83AF9E0-6D4C-9092-66DE-A456A0F00C19</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C92479A4-E7D0-16E4-B73F-031651667F15" referredColumn="C8474E70-91A9-5C90-B94A-F2A5F21C3168"/>
+</associations>
+</Column>
+<Column name="Sen_PrisCrimHist_Date" id="EF0C0871-A9E7-8426-58DA-75BD6EB109BE">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>221544EF-A1AB-5EA2-8307-6C1A9DA9CB47</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C92479A4-E7D0-16E4-B73F-031651667F15" referredColumn="E3A1296E-48ED-4C02-17C2-DAB8160B601D"/>
+</associations>
+</Column>
+<Column name="Sentences_Sentence" id="53DE8FE3-B94A-8507-189D-351F5803DA77">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>354EB08C-78B5-2D5C-D8C4-1B8FD8B9CC0E</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C92479A4-E7D0-16E4-B73F-031651667F15" referredColumn="40896DC9-2FFA-9558-F382-271DFE45EC08"/>
+</associations>
+</Column>
+<Column name="Sentences_StartDate" id="E7425D5D-6FCF-3E8D-52AE-48468FB66820">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>3F55567A-16FB-80E6-8EEA-02BAB7062D29</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C92479A4-E7D0-16E4-B73F-031651667F15" referredColumn="F7171E4E-3A4E-BDDF-CF35-F795D4175BEC"/>
+</associations>
+</Column>
+<Column name="PrisSt_ID" id="E026807C-A738-B7AB-5BDC-AB021BD9F7DB">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="49A1BCA7-1D0F-7B01-1FB7-C9F61EBD124C" name="PrisSt_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="E026807C-A738-B7AB-5BDC-AB021BD9F7DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="359A4CC6-392D-6180-FF28-87C89367DB7A" name="PrisonStays_UN">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>6EB8080E-FB55-A6D9-E8E1-612A8FE903A3</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="83AF838B-B467-7201-6228-EB8F84972AA3"/>
+<colUsage columnID="A09BD06E-6EF8-D8B1-9AC4-EA8BBF5E0E3B"/>
+<colUsage columnID="EF0C0871-A9E7-8426-58DA-75BD6EB109BE"/>
+<colUsage columnID="53DE8FE3-B94A-8507-189D-351F5803DA77"/>
+<colUsage columnID="E7425D5D-6FCF-3E8D-52AE-48468FB66820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C2497777-D75D-D412-A42B-32F86EA01BE5" name="PrisonStays_Sentences_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>7BE2BCDA-EBFA-2F8D-3D0E-9C2FD90BD3DC</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A09BD06E-6EF8-D8B1-9AC4-EA8BBF5E0E3B"/>
+<colUsage columnID="EF0C0871-A9E7-8426-58DA-75BD6EB109BE"/>
+<colUsage columnID="53DE8FE3-B94A-8507-189D-351F5803DA77"/>
+<colUsage columnID="E7425D5D-6FCF-3E8D-52AE-48468FB66820"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="27FED3CE-A9A0-9E17-7B7D-034FE52D9AEE" name="PrisonStays_OtherPrisons_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>B3578B2E-4818-894B-1DB7-87C5A251B49D</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F758AC79-C350-40E9-D042-99A6233A9786"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

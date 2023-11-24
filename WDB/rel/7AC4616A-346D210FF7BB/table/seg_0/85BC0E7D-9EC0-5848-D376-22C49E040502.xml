@@ -1,0 +1,183 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="85BC0E7D-9EC0-5848-D376-22C49E040502" name="Sentences">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<comment><![CDATA[Sentences for prisoner crimes]]></comment>
+<commentInRDBMS><![CDATA[Sentences for prisoner crimes]]></commentInRDBMS>
+<generatorID>23FF955B-4F70-E12A-1848-66088EE85F66</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<abbreviation>Sent</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Sent_ID" id="57E12B42-8D01-2B36-73E4-14089447DFA4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 15:24:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+<Column name="Sentence" id="40896DC9-2FFA-9558-F382-271DFE45EC08">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>33AB7494-8FB4-D6B9-B28C-B843ECE95B7B</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Duration" id="24DF8FBF-BF81-DBE2-09D3-F283FAA7DA6C">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>BF4CA4C9-A78D-7F29-6F0B-24C028F48F37</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT048</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="StartDate" id="F7171E4E-3A4E-BDDF-CF35-F795D4175BEC">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>AE009165-5108-4E0B-B54F-814D69B98863</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EndDate" id="4925615E-54EC-D203-66A6-7CA8902DB258">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>8F63317B-927A-3D66-2E10-B480A2FDFE8F</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrisHist_Pris_Number" id="C8474E70-91A9-5C90-B94A-F2A5F21C3168">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>2D5FCD1B-90A3-3B8F-207A-EF31F1251408</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83EAEE7D-0B44-02D7-87AA-F71CAFA45F77" referredColumn="A99D2EA4-9BE5-BD5C-5E8F-8D16DCC6263C"/>
+</associations>
+</Column>
+<Column name="PrisCrimHist_Date" id="E3A1296E-48ED-4C02-17C2-DAB8160B601D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>06F71A4E-41B0-AB92-F91D-B8F6843D5A15</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="83EAEE7D-0B44-02D7-87AA-F71CAFA45F77" referredColumn="A743DC16-8DE2-566A-37F1-EFA96D414B2A"/>
+</associations>
+</Column>
+<Column name="OtherInfo" id="DAFA8718-793B-C555-598D-C43300DB9F6D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>5A74B343-B527-F5B4-7ED7-5A723B806198</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3C86AEE0-CEAB-1758-6D14-91E370B93F31" name="Sent_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 15:24:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="57E12B42-8D01-2B36-73E4-14089447DFA4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A91D0441-EA00-61B0-6CBB-68E8D3EE2450" name="Sentences_UN">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>7DEE9130-3698-791C-720B-BA51FDCF6EF3</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8474E70-91A9-5C90-B94A-F2A5F21C3168"/>
+<colUsage columnID="E3A1296E-48ED-4C02-17C2-DAB8160B601D"/>
+<colUsage columnID="40896DC9-2FFA-9558-F382-271DFE45EC08"/>
+<colUsage columnID="F7171E4E-3A4E-BDDF-CF35-F795D4175BEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4B986E6C-9CBA-57B2-FD71-E943BC6AB112" name="Sentences__IDX">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>5F82AAF6-B9A5-6B75-E54C-EA0EB39C99E6</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="C8474E70-91A9-5C90-B94A-F2A5F21C3168"/>
+<colUsage columnID="E3A1296E-48ED-4C02-17C2-DAB8160B601D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="64F2ECA5-6EE7-7505-49FB-E8E7FB005DD9" name="Sen_PrisrCrimHist_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>5F82AAF6-B9A5-6B75-E54C-EA0EB39C99E6</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C8474E70-91A9-5C90-B94A-F2A5F21C3168"/>
+<colUsage columnID="E3A1296E-48ED-4C02-17C2-DAB8160B601D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

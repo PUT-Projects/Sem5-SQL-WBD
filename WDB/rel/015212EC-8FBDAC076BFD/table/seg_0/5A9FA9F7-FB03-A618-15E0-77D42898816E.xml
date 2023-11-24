@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5A9FA9F7-FB03-A618-15E0-77D42898816E" name="PrisonStaff">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:37:00 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_2</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="BA60DF04-C576-FB91-2B1D-5C395B7BD47D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:55:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="A943F909-371B-B7D2-16C8-FEA7A0F912D8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:55:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Surname" id="7FD92BAE-26C3-0987-42D8-E929D0F2C771">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:55:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Position" id="464494E0-7233-088C-1C28-442D38D3938E">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:55:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EmploymentDate" id="E52926C0-7BC4-D104-28D8-E4C52C72339D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:55:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OtherInfo" id="29A7842F-D441-2FE4-B654-2CB26F169911">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:55:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PhotoURL" id="F06A01A2-2D42-C7DC-F589-E57896F4F558">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:28:09 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT051</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrisonFacilities_ID" id="59B30789-D213-27D2-3CB1-5259FA32FFD8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 14:08:48 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="251D8DF3-7E2C-BF82-6AE7-91441CF91757" referredColumn="89A6966B-1D47-2B9F-F0E8-4A8FB800C577"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0A47364F-5D6D-289B-CB60-FDFCB06340E5" name="PrisonStaff_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:55:05 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BA60DF04-C576-FB91-2B1D-5C395B7BD47D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A3BF4B1-AC8C-AD02-0F00-51BF77D1FC02" name="PrisonStaff_PrisonFacilities_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:30:26 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="59B30789-D213-27D2-3CB1-5259FA32FFD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

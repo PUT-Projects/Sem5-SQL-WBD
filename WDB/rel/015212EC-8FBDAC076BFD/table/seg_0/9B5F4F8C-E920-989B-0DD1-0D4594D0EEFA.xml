@@ -1,0 +1,68 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9B5F4F8C-E920-989B-0DD1-0D4594D0EEFA" name="ReportsAndStatistics">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:25:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_13</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="5DFB44C4-5BCD-2F7F-106B-032D458891C4">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:26:26 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="8E23C667-D234-E195-9C89-B1686B811AFE">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:26:26 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Data" id="C1367543-7F81-60AE-09FF-C06EB907EB2F">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:26:26 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OtherInfo" id="415E47A9-C7D6-E34C-5666-401BEE5AC4DA">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:26:26 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4425305B-F385-276C-C396-38D7D26EF20D" name="ReportsAndStatistics_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:26:45 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DFB44C4-5BCD-2F7F-106B-032D458891C4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

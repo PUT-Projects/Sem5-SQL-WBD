@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="988861A7-AD08-5B1C-F835-6FB9726C3143" name="PrisonerHistory">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:11:42 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_9</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prisoners_ID" id="1F9E0729-A5CD-3E5D-CBB8-D000B14FF4A9">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:15:30 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F1DF7A0A-1E4B-6579-FC61-928069EE00EE" referredColumn="B4E96BE9-3BB5-4251-B2FD-5C6F02578B0F"/>
+</associations>
+</Column>
+<Column name="CriminalHistory" id="DA996D54-2517-91FC-27F3-56ABB7169ED3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:15:30 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Sentences" id="32DD3C3E-78B8-7919-83D8-8A8345619911">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:15:30 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="OtherInfo" id="10435164-7369-958E-AA12-DEBA37D91BAE">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:15:30 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0C908757-522A-BC8B-A763-B14D8C53CD65" name="PrisonerHistory_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:07:49 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F9E0729-A5CD-3E5D-CBB8-D000B14FF4A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DA950C0D-564C-DFC4-3D83-6DCFBA4C93AB" name="PrisonerHistory_Prisoners_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:07:29 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F9E0729-A5CD-3E5D-CBB8-D000B14FF4A9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="1AC94C3D-B05B-80F3-1393-CC7BA36EAF22">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:25:23 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

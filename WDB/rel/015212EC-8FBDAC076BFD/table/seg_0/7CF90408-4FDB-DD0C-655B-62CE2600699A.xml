@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CF90408-4FDB-DD0C-655B-62CE2600699A" name="PrisonerQualifications">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:42:54 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prisoners_ID" id="C79EEB4F-D1B4-98B8-8899-75469B77FFE6">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:42:54 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="22CF1651-6C9B-E061-AE7E-3F195C7338DB" referredColumn="B4E96BE9-3BB5-4251-B2FD-5C6F02578B0F"/>
+</associations>
+</Column>
+<Column name="Qualifications_ID" id="55A989B4-D868-0A44-556D-674BBFCC8EF8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:42:54 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0EDA6DEB-2AB5-2004-494A-0D29632271F6" referredColumn="F858B48E-C2BD-1EB1-3149-1B2134176688"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BC3963D1-4844-6CB8-C486-B7E3154590A8" name="PrisonerQualifications_Prisoners_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:25:30 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C79EEB4F-D1B4-98B8-8899-75469B77FFE6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="993DD17D-548D-260A-8FD2-D63DFA45DC92" name="PrisonerQualifications_Qualifications_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:25:30 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="55A989B4-D868-0A44-556D-674BBFCC8EF8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

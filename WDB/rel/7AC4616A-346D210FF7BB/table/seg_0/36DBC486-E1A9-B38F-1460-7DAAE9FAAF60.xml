@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="36DBC486-E1A9-B38F-1460-7DAAE9FAAF60" name="Incidents">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<comment><![CDATA[Incidents in prison
+They can include enything starting from riots ending on broken microwave]]></comment>
+<commentInRDBMS><![CDATA[Incidents in prison
+They can include enything starting from riots ending on broken microwave]]></commentInRDBMS>
+<generatorID>6C8003EA-A657-927A-AA5B-D8A0668AACEF</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<abbreviation>Inc</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Description" id="E952FB74-2621-D17B-0CEB-344E0D174CC8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>D7B1ECF3-7E0F-B2DB-CD81-1521C4076FEE</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<maskingType>NO</maskingType>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Locations_Name" id="5BEE575F-7F64-150A-ED0D-5B2F0D2CD061">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>AFCFB55D-4EED-0A90-0C5A-6D70EE22A8E0</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<maskingType>NO</maskingType>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="061C5B70-B523-5D16-D919-59043532643B" referredColumn="D9EE380F-C18E-7EB0-33B6-279D42179F34"/>
+</associations>
+</Column>
+<Column name="OccurenceStartTime" id="21FADE89-C6FF-A3EE-36FA-DEADA92CF1AF">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>294FD8F8-2700-17C9-0C99-1B67742200C7</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<maskingType>NO</maskingType>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Type" id="3FFC8FBE-7DF3-C523-7DE0-2450061FB2BD">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>91513D5F-1C5C-99B2-1F88-60D7A1E4EF34</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<maskingType>NO</maskingType>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Inc_ID" id="F2AFAF37-06CF-0938-DFF7-BDED998777A5">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<maskingType>NO</maskingType>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB1BF27E-4B70-4C2F-70EA-A91D1E82CA41" name="Incidents_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="F2AFAF37-06CF-0938-DFF7-BDED998777A5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2DB050C0-79F2-6A4C-4AFA-4107CC1D41C6" name="Incidents_Locations_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>DCF5B9A2-450D-3280-C5E8-6D15718109F3</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5BEE575F-7F64-150A-ED0D-5B2F0D2CD061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

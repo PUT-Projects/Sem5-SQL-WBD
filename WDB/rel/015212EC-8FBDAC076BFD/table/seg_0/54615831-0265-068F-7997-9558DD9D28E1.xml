@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="54615831-0265-068F-7997-9558DD9D28E1" name="PrisonStays">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:00:26 UTC</createdTime>
+<generatorID>EB1E46F7-F51F-58E4-B9C1-E54A52FE628F</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID" id="D0480BE2-C74A-DDCE-2677-100B8B994987">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:00:26 UTC</createdTime>
+<generatorID>C81DDA98-35F7-2C09-940B-393E98EC3D0B</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Start" id="451871C0-33DE-7257-BB15-02F0F6816442">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:00:26 UTC</createdTime>
+<generatorID>36717272-52C8-53A9-211F-DB3AFDCF2B28</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="End" id="57E19991-DE5A-C711-E670-58C6ADF06053">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:00:26 UTC</createdTime>
+<generatorID>CFAB32AA-A7F6-AA37-EF5D-5DCD5D706D79</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Prison" id="7EFFCF99-9BCF-96BC-1AD6-AF58BD583A29">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:00:26 UTC</createdTime>
+<generatorID>6E914DCE-4D7F-B922-C319-51451E8228C6</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PrisonerHistory_Prisoners_ID" id="E599139F-2DB3-8D67-5CC5-0F12F4BAFDE8">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:00:26 UTC</createdTime>
+<generatorID>2202E2BD-0E64-A227-D242-6DF3E2202E59</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="392EA0D1-7614-EE2E-058E-F2E53B0FA585" referredColumn="1F9E0729-A5CD-3E5D-CBB8-D000B14FF4A9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C26CEFFB-F905-959C-E09E-511196E985A9" name="PrisonStays_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:00:26 UTC</createdTime>
+<generatorID>E5A0C5A9-FE8C-6F54-6496-6FEBB9F0BBE2</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0480BE2-C74A-DDCE-2677-100B8B994987"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9C6FC7B-C521-F9D6-71B6-92F2455BDBB7" name="PrisonStays_PrisonerHistory_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 23:00:26 UTC</createdTime>
+<generatorID>3A451D03-3259-F56E-986E-92A339B6D5FE</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E599139F-2DB3-8D67-5CC5-0F12F4BAFDE8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

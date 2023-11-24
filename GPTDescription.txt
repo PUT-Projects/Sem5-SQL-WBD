@@ -1,0 +1,84 @@
+WBD Manager
+Nazwa Aplikacji: Więzienna Baza Danych Manager (WBD Manager)
+Opis Aplikacji: Więzienna Baza Danych Manager to zaawansowana aplikacja
+wspierająca zarządzanie informacjami i operacjami w systemie więziennym. Aplikacja
+została zamodelowana przy użyciu diagramu związków encji, co pozwala na
+efektywne gromadzenie, przetwarzanie i analizowanie danych więziennych. Aplikacja
+zapewnia funkcjonalności związane z zarządzaniem więźniami, personelem
+więziennym, obiektami więziennymi oraz innymi aspektami związanymi z systemem
+więziennym.
+Główne Funkcje Aplikacji:
+1. Zarządzanie więźniami:
+Dodawanie, edycja i usuwanie informacji o więźniach.
+Przypisywanie więźniów do konkretnych cel.
+Monitorowanie danych osobowych, zdjęć oraz historii przestępstw
+więźniów.
+2. Zarządzanie personelem więziennym:
+Rejestracja i aktualizacja danych o pracownikach więziennych.
+Przydzielanie uprawnień i zadań dla personelu więziennego.
+Śledzenie ich obecności i historii zatrudnienia.
+3. Zarządzanie obiektami więziennymi:
+Dodawanie nowych obiektów więziennych, takich jak cele, kuchnie, sale
+do spotkań itp.
+Przypisywanie więźniów i personelu do określonych obiektów.
+Monitorowanie stanu technicznego i bezpieczeństwa obiektów
+więziennych.
+4. Monitorowanie działalności więźniów:
+Rejestrowanie incydentów, zarówno pozytywnych, jak i negatywnych.
+Zarządzanie czasem spędzonym przez więźniów na pracy lub w edukacji.
+Przypisywanie więźniom programów resocjalizacyjnych.
+5. Raportowanie i analiza danych:
+Generowanie raportów na temat populacji więziennych.
+Analiza statystyk dotyczących przestępstw i zachowań w więzieniach.
+Śledzenie i analiza trendów w więziennictwie.
+Diagram Związków Encji: Diagram związków encji w aplikacji WBD Manager zawiera
+co najmniej 10 głównych encji, takich jak:
+1. Więźniowie:
+Encja ta zawiera informacje o więźniach, takie jak imię, nazwisko, numer
+więzienny, data urodzenia, stan cywilny, zdjęcia więźniów, data przyjęcia
+do więzienia itp.
+2. Personel więzienny:
+Ta encja zawiera dane na temat pracowników więziennych, takie jak dane
+osobowe, stanowisko, numer służbowy, data zatrudnienia, kwalifikacje itp.
+3. Obiekty więzienne:
+W tej encji przechowywane są informacje na temat różnych obiektów w
+więzieniu, takie jak cele więzienne, kuchnie, sale do spotkań, sale
+treningowe itp. Zawiera informacje o lokalizacji, dostępności, pojemności i
+stanach technicznych tych obiektów.
+4. Programy resocjalizacyjne:
+Encja ta zawiera opisy programów resocjalizacyjnych oferowanych
+więźniom, takie jak kursy edukacyjne, terapie, warsztaty zawodowe itp.
+Zawiera również informacje o dostępności i harmonogramie tych
+programów.
+5. Incydenty więzienne:
+W tej encji rejestrowane są wszystkie incydenty w więzieniu, zarówno
+pozytywne, jak i negatywne, takie jak zachowanie więźniów, interakcje
+między więźniami i personelem, incydenty medyczne itp.
+6. Historia więźniów:
+Encja ta przechowuje historię przestępstw, kar i zachowań więźniów.
+Zawiera informacje o wcześniejszych pobytach w więzieniu, wyrokach i
+innych szczegółach związanych z historią każdego więźnia.
+7. Edukacja więźniów:
+Ta encja rejestruje dane dotyczące udziału więźniów w programach
+edukacyjnych, takie jak szkoła średnia, kursy zawodowe, zajęcia
+artystyczne itp.
+8. Zatrudnienie więźniów:
+W tej encji przechowywane są informacje o pracy wykonywanej przez
+więźniów w więzieniu, takie jak rodzaj pracy, zarobki, kwalifikacje i
+harmonogramy pracy więźniów.
+9. Bezpieczeństwo obiektów:
+Encja ta zawiera informacje dotyczące środków bezpieczeństwa w
+obiektach więziennych, takie jak kamery monitoringu, systemy alarmowe,
+kontrole dostępu itp.
+10. Raporty i statystyki:
+Ta encja służy do przechowywania raportów i statystyk dotyczących
+populacji więziennej, incydentów, efektywności programów
+resocjalizacyjnych i innych ważnych danych, które pomagają w analizie i
+podejmowaniu decyzji.
+Te encje są połączone różnymi związkami, które odzwierciedlają relacje między nimi,
+umożliwiając kompleksowe zarządzanie danymi więziennymi.
+Aplikacja WBD Manager jest narzędziem, które pomaga w skutecznym zarządzaniu
+systemem więziennym, umożliwiając dokładne śledzenie i kontrolowanie wielu
+aspektów związanych z więźniami, personelem i obiektami więziennymi. Dzięki temu
+więzienie może efektywniej spełniać swoje funkcje i zapewniać bezpieczeństwo
+społeczeństwa.

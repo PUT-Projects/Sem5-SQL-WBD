@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Schedule_Program" directorySegmentName="seg_0" id="52AF9A5E-720A-00D3-7A6D-2FDB1D2403F3">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-09 20:58:21 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<targetPk>6F3C09A3-341F-8C93-512F-8D22667933BC</targetPk>
+<identifying>true</identifying>
+<nameOnSource>for</nameOnSource>
+<nameOnTarget>on</nameOnTarget>
+<optionalSource>false</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>*</sourceCardinality>
+<sourceEntity>7E858081-632F-2451-EA37-ACA5F489CD4B</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>E60D3666-FB2E-7CAE-398F-B414B15DD907</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

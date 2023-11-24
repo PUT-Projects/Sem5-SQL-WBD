@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="B2DE628C-065C-DD4F-37D9-97C58750D4EA" mainViewID="2BAE35D4-F6B9-C18F-55C0-D079912567ED">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:25:23 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

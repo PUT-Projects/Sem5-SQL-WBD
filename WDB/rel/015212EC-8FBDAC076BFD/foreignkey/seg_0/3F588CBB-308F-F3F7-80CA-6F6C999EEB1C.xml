@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3F588CBB-308F-F3F7-80CA-6F6C999EEB1C" containerWithKeyObject="5A3C47B0-8376-E86B-7F94-598A14BCCCAF" localFKIndex="037C81B2-A20C-CAB7-64FC-1C0947135391" name="PrisonerEmploymentAssign_Prisoners_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:00:59 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<referredTableLongName>Prisoners</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D1DECD7F-3F24-D7F9-D402-39FC25220D8B</referredTableID>
+<keyObject>81999563-5156-0068-48D9-1D6B4522A748</keyObject>
+<referredKeyID>81999563-5156-0068-48D9-1D6B4522A748</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,38 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A1DC82B2-870D-58CF-1038-C6A005077B60" name="Locations">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:48 UTC</createdTime>
+<generatorID>8D59D3BD-6F70-2974-FBCE-60A19AF2313D</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Name" id="083244DB-5085-BA5C-5582-F0E969856356">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:48 UTC</createdTime>
+<generatorID>F186F547-32CF-91AF-99C3-8ECA614CCD2A</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B8FABE18-D89A-0F92-26AC-89A794600D59" name="Locations_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-08 10:07:48 UTC</createdTime>
+<generatorID>C6C651EB-1AB3-9E55-3E8D-4ED7076684B4</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="083244DB-5085-BA5C-5582-F0E969856356"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C272BB36-189F-2899-7A5E-D44383126769" name="EmploymentQualifications">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:40:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<ordsAlias>table_22</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PrisonerEmployment_ID" id="270E3D7E-1AEB-2785-3F97-1DDE4EDC0F91">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:40:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B42231E-16FB-00E7-7DC6-3E14D49DB928" referredColumn="55290175-42BC-7171-8971-4F45A5780088"/>
+</associations>
+</Column>
+<Column name="Qualifications_ID" id="DF2DAFBF-196E-8B02-3537-6F4623A0F7B0">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 12:40:37 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D7D83EB2-E13D-5198-4C7D-1AE3653A8EBD" referredColumn="F858B48E-C2BD-1EB1-3149-1B2134176688"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A78ACFD0-9B42-CCA2-378C-9E0AB735E4FB" name="EmploymentQualifications_PrisonerEmployment_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:28:12 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="270E3D7E-1AEB-2785-3F97-1DDE4EDC0F91"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34CC9A32-9C37-76AC-A3FC-0D171D255207" name="EmploymentQualifications_Qualifications_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 22:28:12 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF2DAFBF-196E-8B02-3537-6F4623A0F7B0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

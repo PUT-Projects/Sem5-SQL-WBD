@@ -1,0 +1,23 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Stay_Delegation" directorySegmentName="seg_0" id="B3578B2E-4818-894B-1DB7-87C5A251B49D">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-15 09:18:19 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<engineerTo>
+<item key="7AC4616A-7CE2-61F1-C97C-346D210FF7BB" value="true"/>
+<item key="015212EC-E7EA-8BAA-0B9D-8FBDAC076BFD" value="true"/>
+<item key="F5969EEE-5959-5637-3E2E-E37F5B773924" value="true"/>
+</engineerTo>
+<sourcePk>95A94FDE-2925-CA29-90B0-0AC6228E06E0</sourcePk>
+<identifying>false</identifying>
+<nameOnSource>used for</nameOnSource>
+<nameOnTarget>where</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>true</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>0C2EEE09-BB2C-1AC0-A069-9CC84485DA20</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5DE7C5BC-6C10-0C08-D19D-C565AD0FAC23</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

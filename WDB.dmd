@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="WDB" id="B612D421-58D0-D092-53F5-E87EE76FA2D4" version="3.5">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-04 11:25:23 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>B612D421-58D0-D092-53F5-E87EE76FA2D4</designId>
+</OSDM_Design>

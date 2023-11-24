@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C92479A4-E7D0-16E4-B73F-031651667F15" containerWithKeyObject="4B0BE737-8372-9C60-E06B-F47088587416" localFKIndex="C2497777-D75D-D412-A42B-32F86EA01BE5" name="PrisonStays_Sentences_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>7BE2BCDA-EBFA-2F8D-3D0E-9C2FD90BD3DC</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<referredTableLongName>Sentences</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>85BC0E7D-9EC0-5848-D376-22C49E040502</referredTableID>
+<keyObject>A91D0441-EA00-61B0-6CBB-68E8D3EE2450</keyObject>
+<referredKeyID>A91D0441-EA00-61B0-6CBB-68E8D3EE2450</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>PrisonerCriminalHistory_ShirtNumber,PrisonerCriminalHistory_CrimeDate,Sentence,StartDate</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

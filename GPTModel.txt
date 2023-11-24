@@ -1,0 +1,75 @@
+Certainly! Here are the proposed tables based on the description of the WBD Manager application and its entity-relationship diagram, presented in English:
+
+1. Table "Prisoners":
+   - Prisoner ID - primary key - INT
+   - First name - VARCHAR(255)
+   - Last name - VARCHAR(255)
+   - Prisoner number - primary key - VARCHAR(31)
+   - Date of birth - DATE
+   - Marital status - VARCHAR(255)
+   - Date of admission to the prison - DATE
+   - Other information related to the history of crimes, prisoner photos, etc. - TEXT
+
+2. Table "Prison Staff":
+   - Staff ID - primary key - INT
+   - Name - VARCHAR(255)
+   - Surname - VARCHAR(255)
+   - Position -  VARCHAR(255)
+   - Service number - VARCHAR(31)
+   - Date of employment - DATE
+   - QualificationsID - Foreign key - VARCHAR(255)
+   - Other related information - TEXT
+
+3. Table "Prison Facilities":
+   - Facility ID - primary key - INT
+   - Facility type (e.g., prison cells, kitchens, meeting rooms, training halls) - VARCHAR(255)
+   - Location - VARCHAR(255)
+   - Capacity - INT
+   - Technical condition - VARCHAR(255)
+
+4. Table "Rehabilitation Programs":
+   - Program ID - primary key - INT
+   - Program description - TEXT
+   - ScheduleID - Foreign key - INT
+   - Capacity - INT
+
+5. Table "Prison Incidents":
+   - Incident ID - primary key - INT
+   - Type of incident (positive/negative) - VARCHAR(31)
+   - Incident description - TEXT
+   - Incident date - DATE
+
+6. Table "Prisoner History":
+   - History ID - primary key - INT
+   - Criminal history - TEXT
+   - Sentences - TEXT
+   - Previous prison stays - TEXT
+   - Other related information - TEXT
+
+7. Table "Prisoner Education":
+   - Education ID - primary key - INT
+   - Type of educational program (e.g., literacy, vocational training, etc.) - VARCHAR(255)
+   - Inmate's participation in the program 
+   - Other details about the prisoner's education - TEXT
+
+8. Table "Prisoner Employment":
+   - Employment ID
+   - Type of inmate's job
+   - Earnings
+   - Qualifications
+   - Work schedule
+
+9. Table "Facility Security":
+   - Security ID
+   - Type of security measure (cameras, alarm systems, access controls)
+   - Information about location and application
+
+10. Table "Reports and Statistics":
+    - Report/Statistic ID
+    - Type of reported data
+    - Statistical data
+    - Other related information
+
+These tables represent the entities from the WBD Manager application description
+and contain fields that reflect the information necessary for effective prison data management.
+The relationships between these tables will represent the connections enabling the tracking and management of various aspects of the prison system.

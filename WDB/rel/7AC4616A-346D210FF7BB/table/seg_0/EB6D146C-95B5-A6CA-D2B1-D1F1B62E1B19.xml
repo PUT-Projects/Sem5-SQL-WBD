@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EB6D146C-95B5-A6CA-D2B1-D1F1B62E1B19" name="Prisoner_Rehabilitation">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<comment><![CDATA[This is table that assigns prisoner to its rehab programs]]></comment>
+<commentInRDBMS><![CDATA[This is table that assigns prisoner to its rehab programs]]></commentInRDBMS>
+<ownerDesignName>WDB</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Prisoners_ShirtNumber" id="F55190BF-386C-913C-E172-2B54B0924C25">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A325D58-6AAE-F1B5-BD08-FA7BC919C674" referredColumn="29652920-5711-AB3B-37DC-93A8B606FDB3"/>
+</associations>
+</Column>
+<Column name="Schedule_RehabID" id="81002BD6-561F-A3E9-95D3-2EAFEF6BF414">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6B7F5910-F5CA-87D9-816B-32A7340E4483" referredColumn="A5B92F02-112E-0946-0106-88B22D75FF05"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F5CF7CA4-E044-6CE4-6516-0996D4BA7455" name="Prisoner_Rehabilitation_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F55190BF-386C-913C-E172-2B54B0924C25"/>
+<colUsage columnID="81002BD6-561F-A3E9-95D3-2EAFEF6BF414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6DB29E99-7082-C086-E5F0-0173D96821BE" name="Pris_Rehab_Pris_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>0C3DB225-54EB-CD84-93C8-F47F94CFB604</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F55190BF-386C-913C-E172-2B54B0924C25"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0ACC28E2-6393-F6EA-B2DE-04E5CB55DCEA" name="Pris_Rehab_RehabSched_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>0C3DB225-54EB-CD84-93C8-F47F94CFB604</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="81002BD6-561F-A3E9-95D3-2EAFEF6BF414"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,188 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="800FF2EB-5A88-28F2-6C65-309DFAB5977F" name="RehabilitationOccurence">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<comment><![CDATA[THis is physical occurence of rehab program
+Whether it started at specific time and when ended
+If enrolled prisoner was present]]></comment>
+<commentInRDBMS><![CDATA[THis is physical occurence of rehab program
+Whether it started at specific time and when ended
+If enrolled prisoner was present]]></commentInRDBMS>
+<generatorID>11E8F0B6-61E5-A076-E030-C82FD7A55CAA</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<abbreviation>RehabOccur</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="StartDatetime" id="EA927E3D-E090-DF98-63A2-3BF16558E145">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>32A7E401-05FD-FB31-1043-AA60A0919C46</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="EndDatetime" id="9459557C-ED66-35A0-36B2-FADE98E88EE9">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>AD2D29F1-5ABE-D380-9EBA-7FC512B5798F</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Presence" id="99755DF7-1A31-F125-5205-EF0205A2F6C5">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>8A6231CC-C4AF-6CF1-3FE0-23CC2F21C071</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<containsPII>true</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="RehabSchedule_Start" id="1D25404D-BBB4-9CAB-38F2-CE3FBA403842">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>DF068D07-9712-8CE5-22C5-D6CB03C3A773</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BC8B6DD-3E00-CC29-3EF5-5421CE229DAA" referredColumn="0542E12A-3227-6438-69AF-0A079C9AC3B5"/>
+</associations>
+</Column>
+<Column name="RehabilitationSchedule_Weekday" id="B7D18A00-3A5E-3D13-5369-1EEC0743230F">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>CF3973FE-8AEE-E957-B6FE-B5C75745B031</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BC8B6DD-3E00-CC29-3EF5-5421CE229DAA" referredColumn="45BB67C4-E7A5-2CDD-4B6C-8AF6C1C4B47C"/>
+</associations>
+</Column>
+<Column name="RehabSchedule_StartHour" id="78C30409-CB8A-98B8-5F34-5B7D3137299F">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>A87F6277-B16B-9078-D839-6E600471FA97</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>true</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BC8B6DD-3E00-CC29-3EF5-5421CE229DAA" referredColumn="AD3B16D8-435D-9E30-FD36-A428583567B2"/>
+</associations>
+</Column>
+<Column name="RehabSchedule_Programs_Name" id="66CAFC07-B731-E842-F2AD-E52FA53D07FB">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>3B99DD15-A995-77AD-8679-372B724ABF2B</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1BC8B6DD-3E00-CC29-3EF5-5421CE229DAA" referredColumn="040CF656-1187-B110-0FA4-012840C12BF9"/>
+</associations>
+</Column>
+<Column name="RehabOccur_ID" id="90A15CD4-2756-6F10-939C-821B47AD65F2">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<containsPII>false</containsPII>
+<containsSensitiveInformation>false</containsSensitiveInformation>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AD95B5F7-B87C-997F-5B5E-30D6E0B64A2B" name="RehabOccur_PK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<ownerDesignName>WDB</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="90A15CD4-2756-6F10-939C-821B47AD65F2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="852943EA-47ED-D0DC-E44D-BD8B916E8BF3" name="RehabilitationOccurence_UN">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>D819562D-C72A-E582-811D-B20A16C42F0F</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA927E3D-E090-DF98-63A2-3BF16558E145"/>
+<colUsage columnID="1D25404D-BBB4-9CAB-38F2-CE3FBA403842"/>
+<colUsage columnID="B7D18A00-3A5E-3D13-5369-1EEC0743230F"/>
+<colUsage columnID="78C30409-CB8A-98B8-5F34-5B7D3137299F"/>
+<colUsage columnID="66CAFC07-B731-E842-F2AD-E52FA53D07FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EBD395F2-4653-FC1E-7FE0-BFBD7B057BDC" name="RehabOccur_RehabSched_FK">
+<createdBy>mateu</createdBy>
+<createdTime>2023-11-22 10:11:15 UTC</createdTime>
+<generatorID>AFF8A102-AD89-CB5F-A070-C5019485C9D6</generatorID>
+<ownerDesignName>WDB</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D25404D-BBB4-9CAB-38F2-CE3FBA403842"/>
+<colUsage columnID="B7D18A00-3A5E-3D13-5369-1EEC0743230F"/>
+<colUsage columnID="78C30409-CB8A-98B8-5F34-5B7D3137299F"/>
+<colUsage columnID="66CAFC07-B731-E842-F2AD-E52FA53D07FB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
